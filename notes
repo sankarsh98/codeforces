@@ -1,0 +1,31 @@
+1. If n is in 100's or 1000's go for naive solution first, even if it's inefficient.
+2. If some solution exists for a sub problem, copy paste it, and focus on main problem, for example if you need to find primes, you can search for an efficient algorithm from google and paste it.
+3. when using multiple iterations of inputs, dont forget to clear common resources like maps
+4. If you can try to simplify the problem as much as possible, like see if you can do something with modulos.
+5. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+few code templates
+//traverse through map
+for(auto &i:mod){
+    cout<<i.first<<" "<<i.second<<endl;
+}
+
+//find a key exist in a map
+if(mod.find(mm)==mod.end())
